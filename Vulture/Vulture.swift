@@ -34,7 +34,7 @@ public class Vulture {
         guard let pathURL = url else {
             return false
         }
-        guard let scheme = pathURL.scheme, scheme == "sgj"  else {
+        guard let scheme = pathURL.scheme, scheme == "Vulture"  else {
             return false
         }
         guard let moduleName = pathURL.host else {
