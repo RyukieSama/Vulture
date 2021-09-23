@@ -30,23 +30,20 @@ public class Vulture {
     /// - Parameter url:
     /// - Returns: 是否成功
     @discardableResult
-    public static func open(url: URL?) -> Bool {
-        guard let pathURL = url else {
-            return false
-        }
-        guard let scheme = pathURL.scheme, scheme == "Vulture"  else {
-            return false
-        }
-        guard let moduleName = pathURL.host else {
-            return false
-        }
-        let apiNameOrgin = pathURL.path
-        guard let startIndex = apiNameOrgin.range(of: "/") else {
+    public static func open(url: URL?, errorClosure: VultureErrorClosure? = nil) -> Bool {
+        guard
+            let pathURL = url,
+            let scheme = pathURL.scheme,
+            scheme == "Vulture",
+            let moduleName = pathURL.host,
+            let startIndex = pathURL.path.range(of: "/")
+        else {
+            errorClosure?(.invalidURL)
             return false
         }
         
-        let apiName = String(apiNameOrgin.suffix(from: startIndex.upperBound))
-        open(module: moduleName, api: apiName, pramas: pathURL.queryItems)
+        let apiName = String(pathURL.path.suffix(from: startIndex.upperBound))
+        open(module: moduleName, api: apiName, pramas: pathURL.queryItems, errorClosure: errorClosure)
         return true
     }
     
@@ -55,14 +52,16 @@ public class Vulture {
     /// - Parameters:
     ///   - module:
     ///   - api:
-    static func open(module: String, api: String, pramas: [String: Any]? = nil) {
-        guard let mappingType = (VultureURLAPI.self as? URLModuleMapping.Type) else {
-            return
-        }
-        guard let moduleType = mappingType.moduleType(name: module) else {
+    static func open(module: String, api: String, pramas: [String: Any]? = nil, errorClosure: VultureErrorClosure? = nil) {
+        guard
+            let mappingType = (VultureURLAPI.self as? URLModuleMapping.Type),
+            let moduleType = mappingType.moduleType(name: module)
+        else {
+            errorClosure?(.invalidModule)
             return
         }
         guard let api = moduleType.api(rawValue: api) else {
+            errorClosure?(.invalidAPI)
             return
         }
         api.excute(params: pramas)
