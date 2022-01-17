@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07AD0D389159ADC7F5212BEF0E69DE78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1E430C0735963CC732F5777C12B0E23F /* Pods-Vulture_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4268DC897217D81CB0E4E05EDEFC680 /* Pods-Vulture_Tests-dummy.m */; };
+		3A75AD0E9372BC93C0C363B2AFB9D3F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7DDC3D9877B7F71B556BDA41566688B7 /* Pods-Vulture_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CE06B2C7F01320CBE28C9FA1D373E /* Pods-Vulture_Example-dummy.m */; };
+		850A192C73AA0736A836BFF199D098C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		957716B4C9E9FE53A99EA08E771AA268 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA02D75967959B1BCF510A12DCCF5E0 /* ReplaceMe.swift */; };
+		AE67292317DE362619D14AA795D691F4 /* Vulture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD08C360056519BC2D04A3B95463B82 /* Vulture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC7C68F0E728C5EB65B9D0FAB190D6D3 /* Pods-Vulture_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EBBC05023CAE15977E41972630D374 /* Pods-Vulture_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA7DBF6CF29FE9BAE1CDB942D0C14963 /* Vulture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA5B3C958A144374AA41DFCF415DAB7 /* Vulture-dummy.m */; };
+		F06267784E043E3BE38BB4DD3EE655E9 /* Pods-Vulture_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77E5F7A633DAE7552056BFCD46D6A512 /* Pods-Vulture_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24E5E794EF34871BE4ED6C827F6FF89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E97CAACB31DE749FD90F498184D013A;
+			remoteInfo = Vulture;
+		};
+		E05E95E0765AA151A085FF83206AB185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60368D354DF37825AA78FFD3E293850E;
+			remoteInfo = "Pods-Vulture_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		086CE06B2C7F01320CBE28C9FA1D373E /* Pods-Vulture_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vulture_Example-dummy.m"; sourceTree = "<group>"; };
+		10F267CB9EB42E67D0C42DA5C217AD0B /* Pods-Vulture_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vulture_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		128E3E20DF6F9CA353E1C92F0A8F11A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		15FFBA78D60FAF14531B4932A7E4CEB1 /* Pods-Vulture_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vulture_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1CA02D75967959B1BCF510A12DCCF5E0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Vulture/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		1EB9D23B547D44A9FA92AE8734EB0E2D /* Pods-Vulture_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vulture_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C7385D6A0140841B68F63FD9C6C9DCD /* Vulture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Vulture.release.xcconfig; sourceTree = "<group>"; };
+		3CA5B3C958A144374AA41DFCF415DAB7 /* Vulture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Vulture-dummy.m"; sourceTree = "<group>"; };
+		472F6BDA7694BB3E05527BE9D1ED8F19 /* Pods-Vulture_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vulture_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73958BBF3811C1BF070BB116BE462273 /* Pods-Vulture_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vulture_Example.release.xcconfig"; sourceTree = "<group>"; };
+		77E5F7A633DAE7552056BFCD46D6A512 /* Pods-Vulture_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vulture_Example-umbrella.h"; sourceTree = "<group>"; };
+		7823CD0FC88497850543A423129B4401 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		804BF38A020D00B62879A820F4B47271 /* Vulture-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Vulture-Info.plist"; sourceTree = "<group>"; };
+		83C27BB4CF3E3336097012A42A26C056 /* Pods-Vulture_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Vulture_Tests.modulemap"; sourceTree = "<group>"; };
+		846E228AA216D748DB1AB9AC36DEC784 /* Pods-Vulture_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Vulture_Example.modulemap"; sourceTree = "<group>"; };
+		9890F8D577E4DCD6388386209458B382 /* Vulture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Vulture.modulemap; sourceTree = "<group>"; };
+		9B39493362163CE5ECEFCBBDAE2B4064 /* Vulture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Vulture-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A45BE1EC21850474AC01615DA8A4DA22 /* Pods-Vulture_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vulture_Example-Info.plist"; sourceTree = "<group>"; };
+		AEBFE1A93AE8034BC2143AC9DA4E0B11 /* Pods-Vulture_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vulture_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AFD08C360056519BC2D04A3B95463B82 /* Vulture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Vulture-umbrella.h"; sourceTree = "<group>"; };
+		B9EBBC05023CAE15977E41972630D374 /* Pods-Vulture_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vulture_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C4FC6E923F3F019402AC0797FF7C8AA4 /* Vulture.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Vulture.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C96B96BCF3625C6B30F9CF88DF457915 /* Vulture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Vulture.debug.xcconfig; sourceTree = "<group>"; };
+		CF3B28E585A0EA49E50077AAD6843303 /* Pods-Vulture_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Vulture_Tests"; path = Pods_Vulture_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D020193C58E7356BC50425592ADF89A3 /* Vulture */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Vulture; path = Vulture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17D84E7AA6B7DAA33664DC707931C02 /* Pods-Vulture_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vulture_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D3195134FB7668FA73AE248326D89295 /* Pods-Vulture_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vulture_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D52A760934CAC47D3C47D469B5B5E653 /* Pods-Vulture_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vulture_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E3336F725950D814ED45E71CB040D0FC /* Pods-Vulture_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Vulture_Example"; path = Pods_Vulture_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4268DC897217D81CB0E4E05EDEFC680 /* Pods-Vulture_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vulture_Tests-dummy.m"; sourceTree = "<group>"; };
+		ED077F91A81DF224577F03DC955111C1 /* Pods-Vulture_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vulture_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6815C93A22FCB96D9F5B6A87AE6686DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850A192C73AA0736A836BFF199D098C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF01F624009A74CA29C479EDCD3A74F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AD0D389159ADC7F5212BEF0E69DE78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DE80FA35F7FDBB3EAB5A86B62E9AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A75AD0E9372BC93C0C363B2AFB9D3F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038D6D7AEFB49F20D81A2981C3CB05D0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F754025E553EB4967590D2AE98988EC5 /* Vulture */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		39BF117D3F33109FA66CDD3F8758E4CE /* Pods-Vulture_Example */ = {
+			isa = PBXGroup;
+			children = (
+				846E228AA216D748DB1AB9AC36DEC784 /* Pods-Vulture_Example.modulemap */,
+				1EB9D23B547D44A9FA92AE8734EB0E2D /* Pods-Vulture_Example-acknowledgements.markdown */,
+				ED077F91A81DF224577F03DC955111C1 /* Pods-Vulture_Example-acknowledgements.plist */,
+				086CE06B2C7F01320CBE28C9FA1D373E /* Pods-Vulture_Example-dummy.m */,
+				15FFBA78D60FAF14531B4932A7E4CEB1 /* Pods-Vulture_Example-frameworks.sh */,
+				A45BE1EC21850474AC01615DA8A4DA22 /* Pods-Vulture_Example-Info.plist */,
+				77E5F7A633DAE7552056BFCD46D6A512 /* Pods-Vulture_Example-umbrella.h */,
+				D52A760934CAC47D3C47D469B5B5E653 /* Pods-Vulture_Example.debug.xcconfig */,
+				73958BBF3811C1BF070BB116BE462273 /* Pods-Vulture_Example.release.xcconfig */,
+			);
+			name = "Pods-Vulture_Example";
+			path = "Target Support Files/Pods-Vulture_Example";
+			sourceTree = "<group>";
+		};
+		403F4424221BA2FCCDC12A50B91A01F1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39BF117D3F33109FA66CDD3F8758E4CE /* Pods-Vulture_Example */,
+				84AFE63F93B1C84C38CA2E482FB5AB53 /* Pods-Vulture_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		56214E2FA2542D6BBB5FF6142C0C271A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				128E3E20DF6F9CA353E1C92F0A8F11A5 /* LICENSE */,
+				7823CD0FC88497850543A423129B4401 /* README.md */,
+				C4FC6E923F3F019402AC0797FF7C8AA4 /* Vulture.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8331D50438FEFEF893996FA247B1A2A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9890F8D577E4DCD6388386209458B382 /* Vulture.modulemap */,
+				3CA5B3C958A144374AA41DFCF415DAB7 /* Vulture-dummy.m */,
+				804BF38A020D00B62879A820F4B47271 /* Vulture-Info.plist */,
+				9B39493362163CE5ECEFCBBDAE2B4064 /* Vulture-prefix.pch */,
+				AFD08C360056519BC2D04A3B95463B82 /* Vulture-umbrella.h */,
+				C96B96BCF3625C6B30F9CF88DF457915 /* Vulture.debug.xcconfig */,
+				3C7385D6A0140841B68F63FD9C6C9DCD /* Vulture.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Vulture";
+			sourceTree = "<group>";
+		};
+		84AFE63F93B1C84C38CA2E482FB5AB53 /* Pods-Vulture_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				83C27BB4CF3E3336097012A42A26C056 /* Pods-Vulture_Tests.modulemap */,
+				AEBFE1A93AE8034BC2143AC9DA4E0B11 /* Pods-Vulture_Tests-acknowledgements.markdown */,
+				10F267CB9EB42E67D0C42DA5C217AD0B /* Pods-Vulture_Tests-acknowledgements.plist */,
+				E4268DC897217D81CB0E4E05EDEFC680 /* Pods-Vulture_Tests-dummy.m */,
+				472F6BDA7694BB3E05527BE9D1ED8F19 /* Pods-Vulture_Tests-Info.plist */,
+				B9EBBC05023CAE15977E41972630D374 /* Pods-Vulture_Tests-umbrella.h */,
+				D3195134FB7668FA73AE248326D89295 /* Pods-Vulture_Tests.debug.xcconfig */,
+				D17D84E7AA6B7DAA33664DC707931C02 /* Pods-Vulture_Tests.release.xcconfig */,
+			);
+			name = "Pods-Vulture_Tests";
+			path = "Target Support Files/Pods-Vulture_Tests";
+			sourceTree = "<group>";
+		};
+		B3806E64A558470F2AC3C0A006A9EDB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3336F725950D814ED45E71CB040D0FC /* Pods-Vulture_Example */,
+				CF3B28E585A0EA49E50077AAD6843303 /* Pods-Vulture_Tests */,
+				D020193C58E7356BC50425592ADF89A3 /* Vulture */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				038D6D7AEFB49F20D81A2981C3CB05D0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B3806E64A558470F2AC3C0A006A9EDB0 /* Products */,
+				403F4424221BA2FCCDC12A50B91A01F1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F754025E553EB4967590D2AE98988EC5 /* Vulture */ = {
+			isa = PBXGroup;
+			children = (
+				1CA02D75967959B1BCF510A12DCCF5E0 /* ReplaceMe.swift */,
+				56214E2FA2542D6BBB5FF6142C0C271A /* Pod */,
+				8331D50438FEFEF893996FA247B1A2A9 /* Support Files */,
+			);
+			name = Vulture;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		51960BDD74A6055E21C8828C4B1E576A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7C68F0E728C5EB65B9D0FAB190D6D3 /* Pods-Vulture_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDE4FE34CACC643BE671FB222E233F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE67292317DE362619D14AA795D691F4 /* Vulture-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02205A9CDD738FAC2F4A8DA4F148640 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06267784E043E3BE38BB4DD3EE655E9 /* Pods-Vulture_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60368D354DF37825AA78FFD3E293850E /* Pods-Vulture_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8484A7681D09519C86D6BCEFE0207217 /* Build configuration list for PBXNativeTarget "Pods-Vulture_Example" */;
+			buildPhases = (
+				B02205A9CDD738FAC2F4A8DA4F148640 /* Headers */,
+				743ADFF5562AA0CD137B0BC24ED68CB8 /* Sources */,
+				6815C93A22FCB96D9F5B6A87AE6686DF /* Frameworks */,
+				9B2BDD9DA9262C8A54290DA11C3A2E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4E82F8B58F8434A2C40ADCBEB9073C /* PBXTargetDependency */,
+			);
+			name = "Pods-Vulture_Example";
+			productName = Pods_Vulture_Example;
+			productReference = E3336F725950D814ED45E71CB040D0FC /* Pods-Vulture_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E97CAACB31DE749FD90F498184D013A /* Vulture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA273D56E73A147ED6C6B8B6146DA29B /* Build configuration list for PBXNativeTarget "Vulture" */;
+			buildPhases = (
+				9CDE4FE34CACC643BE671FB222E233F0 /* Headers */,
+				7BCD8BB6A3D0010E4099398AF34DF6C4 /* Sources */,
+				C5DE80FA35F7FDBB3EAB5A86B62E9AC7 /* Frameworks */,
+				EA2BBC110ED12C9BDFCCC349DCBA5663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vulture;
+			productName = Vulture;
+			productReference = D020193C58E7356BC50425592ADF89A3 /* Vulture */;
+			productType = "com.apple.product-type.framework";
+		};
+		F69EA79219E85099AFAC98F0D7D2BFAD /* Pods-Vulture_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD20631E428001E481835BC8CA4BC73 /* Build configuration list for PBXNativeTarget "Pods-Vulture_Tests" */;
+			buildPhases = (
+				51960BDD74A6055E21C8828C4B1E576A /* Headers */,
+				6C1DD8D8A32062AC7F3BD05E4444B64E /* Sources */,
+				9CF01F624009A74CA29C479EDCD3A74F /* Frameworks */,
+				6AB8536D7904F560386EF60D203768B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7541D87AB597317B916A0CCB85759F7B /* PBXTargetDependency */,
+			);
+			name = "Pods-Vulture_Tests";
+			productName = Pods_Vulture_Tests;
+			productReference = CF3B28E585A0EA49E50077AAD6843303 /* Pods-Vulture_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B3806E64A558470F2AC3C0A006A9EDB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60368D354DF37825AA78FFD3E293850E /* Pods-Vulture_Example */,
+				F69EA79219E85099AFAC98F0D7D2BFAD /* Pods-Vulture_Tests */,
+				9E97CAACB31DE749FD90F498184D013A /* Vulture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AB8536D7904F560386EF60D203768B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B2BDD9DA9262C8A54290DA11C3A2E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2BBC110ED12C9BDFCCC349DCBA5663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C1DD8D8A32062AC7F3BD05E4444B64E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E430C0735963CC732F5777C12B0E23F /* Pods-Vulture_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743ADFF5562AA0CD137B0BC24ED68CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDC3D9877B7F71B556BDA41566688B7 /* Pods-Vulture_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCD8BB6A3D0010E4099398AF34DF6C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957716B4C9E9FE53A99EA08E771AA268 /* ReplaceMe.swift in Sources */,
+				CA7DBF6CF29FE9BAE1CDB942D0C14963 /* Vulture-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7541D87AB597317B916A0CCB85759F7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Vulture_Example";
+			target = 60368D354DF37825AA78FFD3E293850E /* Pods-Vulture_Example */;
+			targetProxy = E05E95E0765AA151A085FF83206AB185 /* PBXContainerItemProxy */;
+		};
+		CC4E82F8B58F8434A2C40ADCBEB9073C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Vulture;
+			target = 9E97CAACB31DE749FD90F498184D013A /* Vulture */;
+			targetProxy = 24E5E794EF34871BE4ED6C827F6FF89A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		70952DFF0D4B68FA9EC34D77FEE2E129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73958BBF3811C1BF070BB116BE462273 /* Pods-Vulture_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vulture_Example/Pods-Vulture_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vulture_Example/Pods-Vulture_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76C91D3AABFCE30445E949C864D60095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3195134FB7668FA73AE248326D89295 /* Pods-Vulture_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vulture_Tests/Pods-Vulture_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vulture_Tests/Pods-Vulture_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A73DD47DFB42DE03BB69D728784CA409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C7385D6A0140841B68F63FD9C6C9DCD /* Vulture.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Vulture/Vulture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Vulture/Vulture-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Vulture/Vulture.modulemap";
+				PRODUCT_MODULE_NAME = Vulture;
+				PRODUCT_NAME = Vulture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8AC80468E802099DAC2E784C240F448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D17D84E7AA6B7DAA33664DC707931C02 /* Pods-Vulture_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vulture_Tests/Pods-Vulture_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vulture_Tests/Pods-Vulture_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C30B8928D35C5F6C121FB6399525C77A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96B96BCF3625C6B30F9CF88DF457915 /* Vulture.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Vulture/Vulture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Vulture/Vulture-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Vulture/Vulture.modulemap";
+				PRODUCT_MODULE_NAME = Vulture;
+				PRODUCT_NAME = Vulture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D4111A96E167ACF261EC61CCCFAC5034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52A760934CAC47D3C47D469B5B5E653 /* Pods-Vulture_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vulture_Example/Pods-Vulture_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vulture_Example/Pods-Vulture_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8484A7681D09519C86D6BCEFE0207217 /* Build configuration list for PBXNativeTarget "Pods-Vulture_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4111A96E167ACF261EC61CCCFAC5034 /* Debug */,
+				70952DFF0D4B68FA9EC34D77FEE2E129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD20631E428001E481835BC8CA4BC73 /* Build configuration list for PBXNativeTarget "Pods-Vulture_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C91D3AABFCE30445E949C864D60095 /* Debug */,
+				A8AC80468E802099DAC2E784C240F448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA273D56E73A147ED6C6B8B6146DA29B /* Build configuration list for PBXNativeTarget "Vulture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30B8928D35C5F6C121FB6399525C77A /* Debug */,
+				A73DD47DFB42DE03BB69D728784CA409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

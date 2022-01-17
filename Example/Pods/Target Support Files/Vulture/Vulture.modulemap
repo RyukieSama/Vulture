@@ -1,0 +1,6 @@
+framework module Vulture {
+  umbrella header "Vulture-umbrella.h"
+
+  export *
+  module * { export * }
+}

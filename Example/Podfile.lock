@@ -1,0 +1,16 @@
+PODS:
+  - Vulture (0.1.0)
+
+DEPENDENCIES:
+  - Vulture (from `../`)
+
+EXTERNAL SOURCES:
+  Vulture:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Vulture: 2745391b86a7c4bd3d6a59ee6dd0f07e0bb74d80
+
+PODFILE CHECKSUM: d491a8a62671c37a4b453fb2150253047713c301
+
+COCOAPODS: 1.11.2

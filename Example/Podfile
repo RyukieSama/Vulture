@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Vulture_Example' do
+  pod 'Vulture', :path => '../'
+
+  target 'Vulture_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
