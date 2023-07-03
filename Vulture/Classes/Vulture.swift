@@ -68,6 +68,7 @@ public class Vulture {
     }
 
     @discardableResult
+    @available(iOSApplicationExtension, unavailable)
     public static func topViewController(base: UIViewController? = UIApplication.shared.windows.first?.rootViewController) -> UIViewController? {
         if let nav = base as? UINavigationController {
             return topViewController(base: nav.visibleViewController)
